@@ -1,0 +1,18 @@
+.view-details-page-cont {
+  padding: 10px;
+}
+.backdrop-path-image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .view-details-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .backdrop-path-image {
+    width: 70%;
+    margin-right: 10px;
+  }
+}
